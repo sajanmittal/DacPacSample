@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[TestTable]
+(
+	[Id] INT NOT NULL IDENTITY(100, 1),
+	[Name] VARCHAR(100) NULL, 
+    CONSTRAINT [PK_TestTable] PRIMARY KEY ([Id])
+)
